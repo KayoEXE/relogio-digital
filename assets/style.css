@@ -1,0 +1,42 @@
+/* style.css */
+/* Define estilos básicos para o corpo do documento */
+body {
+    display: flex;                   /* Usa Flexbox para layout, o que facilita o alinhamento dos itens */
+    justify-content: center;         /* Centraliza o conteúdo horizontalmente na página */
+    align-items: center;             /* Centraliza o conteúdo verticalmente na página */
+    min-height: 100vh;               /* Define a altura mínima do corpo para 100% da altura da janela de visualização */
+    background-color: #282c34;       /* Define a cor de fundo do corpo */
+    color: #61dafb;                  /* Define a cor do texto para um azul claro */
+    font-family: 'Arial', sans-serif; /* Define a família de fontes do texto para Arial, com fallback para qualquer sans-serif */
+    margin: 0;                       /* Remove as margens padrão do corpo */
+}
+
+/* Estilos para o container que envolve o relógio */
+.clock-container {
+    text-align: center;              /* Centraliza o texto dentro do container do relógio */
+}
+
+/* Estilos específicos para o relógio digital */
+.clock {
+    font-size: 50px;                 /* Define o tamanho da fonte do relógio para 48px */
+    padding: 25px;                   /* Adiciona preenchimento ao redor do conteúdo interno do relógio */
+    border-radius: 100px;             /* Arredonda os cantos do relógio */
+    background: #20232a;             /* Define a cor de fundo do relógio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor do relógio para um efeito 3D leve */
+    display: inline-block;           /* Faz com que o relógio se comporte como um bloco, mas só ocupe o espaço do seu conteúdo */
+}
+
+/* Estilos para a exibição da data */
+.date {
+    margin-top: 20px;                /* Adiciona uma margem no topo para separar a data do relógio */
+    font-size: 24px;                 /* Define o tamanho da fonte da data para 24px */
+    color: #9bf6ff;                  /* Define a cor do texto da data para um azul claro diferente */
+}
+
+/* Estilos para a saudação */
+.greeting {
+    font-size: 24px;                 /* Define o tamanho da fonte da saudação para 24px */
+    color: #57caff;                  /* Define a cor do texto da saudação para um amarelo claro */
+    margin-bottom: 10px;             /* Adiciona uma margem abaixo da saudação para separá-la do conteúdo acima */
+}
+
